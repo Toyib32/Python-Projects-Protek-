@@ -12,3 +12,4 @@ bil2 = int(file.readline())
 # hitung dan tampilkan hasil bagi
 hasil = bil1/bil2
 print(bil1, 'dibagi', bil2, 'sama dengan', hasil)
+
