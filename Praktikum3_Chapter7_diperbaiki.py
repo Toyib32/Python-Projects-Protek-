@@ -9,4 +9,3 @@ try:
     print (sum)
 except ValueError:
     print("tidak dapat menjumlahkan dengan alfabet")
-
