@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>h5h3aik8elxo</unique-id>
+    <saved-with-version>27900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1708</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="57a20434622943a9aba539c0ebd93bf" sid="839299099039657">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="264438378839655" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\AK\Downloads\Video\57a20434-6229-43a9-aba5-39c0ebd93bf3.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Idle__" sid="834174676456656">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="heart" sid="869352457174100" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="895408396171640">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="253894764898207">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="990871140738778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501139" original-source="C:\Users\AK\Downloads\png\Idle__000.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="672019529532486" speed="10">
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__000.png" />
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__001.png" />
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__002.png" />
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__003.png" />
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__004.png" />
+                    <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\AK\Downloads\png\Run__005.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="626645803155875">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="198249958679001">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\AK\Downloads\Video\22e6c4de-6d0e-4094-9574-1cbefaee9ff7.jpg" />
+        </object-type>
+        <object-type name="TiledBackground" sid="500896807013340">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="281194853636171">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\AK\Downloads\Video\10bf0519-3341-4759-a2f0-918d242e537f.jpg" />
+        </object-type>
+        <object-type name="Audio" sid="485186169683511">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite" sid="792633507212013">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="627305260957597">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="804400859027641" speed="20">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spikes_" sid="106796558398747">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829594748611981" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501639" original-source="C:\Users\AK\Documents\trap\spikes_1.png">
+                        <collision-poly>
+                            <point x="0.120623" y="0.203279" />
+                            <point x="0.5" y="0.737705" />
+                            <point x="0.873541" y="0.213115" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5008" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\spikes_2.png">
+                        <collision-poly>
+                            <point x="0.1072" y="0.20679" />
+                            <point x="0.4992" y="0.262346" />
+                            <point x="0.9248" y="0.145062" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spikes_2" sid="972095570911161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446127805644631" speed="5">
+                    <frame duration="1" hotspotX="0.5008" hotspotY="0.5" original-source="C:\Users\AK\Documents\trap\spikes_2.png">
+                        <collision-poly>
+                            <point x="0.1072" y="0.20679" />
+                            <point x="0.4992" y="0.262346" />
+                            <point x="0.9248" y="0.145062" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spikes_3" sid="917523713318816">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894424825595868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501639" original-source="C:\Users\AK\Documents\trap\spikes_1.png">
+                        <collision-poly>
+                            <point x="0.120623" y="0.203279" />
+                            <point x="0.5" y="0.737705" />
+                            <point x="0.873541" y="0.213115" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blade_" sid="612461477842035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533851276020223" speed="5">
+                    <frame duration="1" hotspotX="0.501129" hotspotY="0.501129" original-source="C:\Users\AK\Documents\trap\blade_3.png">
+                        <collision-poly>
+                            <point x="0.146727" y="0.146727" />
+                            <point x="0.498871" y="0" />
+                            <point x="0.853273" y="0.146727" />
+                            <point x="1" y="0.498871" />
+                            <point x="0.853273" y="0.853273" />
+                            <point x="0.498871" y="1" />
+                            <point x="0.146727" y="0.853273" />
+                            <point x="0" y="0.498871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blade_2" sid="287684816556555">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="177422370419427" speed="5">
+                    <frame duration="1" hotspotX="0.501129" hotspotY="0.501129" original-source="C:\Users\AK\Documents\trap\blade_3.png">
+                        <collision-poly>
+                            <point x="0.146727" y="0.146727" />
+                            <point x="0.498871" y="0" />
+                            <point x="0.853273" y="0.146727" />
+                            <point x="1" y="0.498871" />
+                            <point x="0.853273" y="0.853273" />
+                            <point x="0.498871" y="1" />
+                            <point x="0.146727" y="0.853273" />
+                            <point x="0" y="0.498871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="long_chain_piece" sid="112983831967452">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754266922196156" speed="5">
+                    <frame duration="1" hotspotX="0.504762" hotspotY="0.500589" original-source="C:\Users\AK\Documents\trap\long_chain_piece.png">
+                        <collision-poly>
+                            <point x="0.152381" y="0.0188457" />
+                            <point x="0.495238" y="0" />
+                            <point x="0.847619" y="0.0188457" />
+                            <point x="0.971429" y="0.499411" />
+                            <point x="0.790476" y="0.974087" />
+                            <point x="0.495238" y="1" />
+                            <point x="0.266667" y="0.96702" />
+                            <point x="0.0285714" y="0.499411" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="long_chain_piece2" sid="696297531727977">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769567476845407" speed="5">
+                    <frame duration="1" hotspotX="0.504762" hotspotY="0.500589" original-source="C:\Users\AK\Documents\trap\long_chain_piece.png">
+                        <collision-poly>
+                            <point x="0.152381" y="0.0188457" />
+                            <point x="0.495238" y="0" />
+                            <point x="0.847619" y="0.0188457" />
+                            <point x="0.971429" y="0.499411" />
+                            <point x="0.790476" y="0.974087" />
+                            <point x="0.495238" y="1" />
+                            <point x="0.266667" y="0.96702" />
+                            <point x="0.0285714" y="0.499411" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="3" />
+        <global-instance type="Audio" uid="5">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="videoplayback.m4a" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
