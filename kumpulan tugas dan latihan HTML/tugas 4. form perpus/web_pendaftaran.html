@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB PENDAFTARAN ANGGOTA PERPUSTAKAAN UNS</title>
+    </head>
+    <body bgcolor="cyan">
+        <h1 align="center">Selamat datang mahasiswa UNS
+            <br>untuk mendaftar keanggotaan perpustakaan UNS, silahkan mengisi biodata dibawah ya
+        </h1>
+        <img src="C:\Users\ASUS\Documents\HTML\tugas 4. form perpus\uns1.jpg" align="center" alt="background image" class="bg">
+        <div id="box">
+            <form action="C:\Users\ASUS\Documents\HTML\penutup.html">
+                <fieldset>
+                    <legend align="center">FORM REGISTRASI PENDAFTARAN ANGGOTA PERPUSTAKAAN
+                        <br>UNIVERSITAS SEBELAS MARET
+                    </legend>
+                    <table cellpadding="10px" cellspacing="10px">
+                        <p>
+                            <label>Nama:</label>
+                            <input type="text" name="username" placeholder="silahkan masukkan nama">
+                        </p>
+                        <p>
+                            <label>NIM:</label>
+                            <input type="text" name="usernim" placeholder="silahkan masukkan NIM">
+                        </p>
+                        <p>
+                            <label>E-mail student:</label>
+                            <input type="text" name="useremail" placeholder="silahkan masukkan email student">
+                        </p>
+                        <p>
+                            <label>Tanggal Lahir</label>
+                            <input type="date" name="tgllahir">
+                        </p>
+                        <p>
+                            <label>Jenis kelamin</label>
+                            <label><input type="radio" name="tipe" value="male">Laki-laki</label>
+                            <label><input type="radio" name="tipe" value="female">Perempuan</label>
+                        </p>
+                        <p>
+                            <label>Angkatan:</label>
+                            <select name="angkatan">
+                                <option value="1">2021</option>
+                                <option value="2">2020</option>
+                                <option value="3">2019</option>
+                                <option value="4">2018</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Fakultas:</label>
+                            <select name="fakultas">
+                                <option value="ft">FT</option>
+                                <option value="fkip">FKIP</option>
+                                <option value="fib">FIB</option>
+                                <option value="fsrd">FSRD</option>
+                                <option value="fh">FH</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>masukkan file foto:
+                                <h4> ketentuan ukuran kurang dari 2mb dengan background merah </h4>
+                            </label>
+                            <input type="file" name="foto" id="input">
+                        </p>
+                        <p>
+                            <label>tambahkan keterangan prestasi:
+                                <h4> *Jika ada </h4>
+                            </label>
+                            <textarea name="info"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" name="submit" value="Daftar">
+                        </p>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
