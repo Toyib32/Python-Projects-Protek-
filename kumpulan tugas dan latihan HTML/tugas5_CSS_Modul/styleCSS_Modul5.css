@@ -1,0 +1,25 @@
+p{
+    column-rule-color: silver;
+    border-color: silver;
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: fit-content;
+}
+#box{
+    padding: 5px;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background: darkgray;
+}
+.image1{
+    width: 200px;
+    float: left;
+    margin-top: auto;
+}
+img { 
+    height: 300px; 
+    width: 200px;
+}
