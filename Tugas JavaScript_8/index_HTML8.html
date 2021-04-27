@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Coca-cola</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="style8.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="logo.png" class="logo"></a>
+                <div class="toggle" onclick="toggleMenu()"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Taste the Feeling</h2>
+                    <p>Feel the sensation of freshness!.. coca-cola now has more flavors.
+                        you can also buy ones that are low in sugar. what are you waiting
+                        for, buy coca-cola at the nearest grocery store, or you can buy 
+                        on the official coca-cola website with a minimum purchase of 10$.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="CherryCola.png"></div>
+                            <div class="swiper-slide"><img src="ColaCoffee.png"></div>
+                            <div class="swiper-slide"><img src="ColaEnergy.png"></div>
+                            <div class="swiper-slide"><img src="DietCoke.png"></div>
+                            <div class="swiper-slide"><img src="OriginalTaste.png"></div>
+                            <div class="swiper-slide"><img src="LessSugar.png"></div>
+                            <div class="swiper-slide"><img src="OrangeVanilla.png"></div>
+                            <div class="swiper-slide"><img src="Vanilla.png"></div>
+                            <div class="swiper-slide"><img src="ZeroSugar.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="sci"> 
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+              },
+              loop: true,
+            });
+
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.toggle');
+                const navigation = document.querySelector('.navigation')
+                menuToggle.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>
